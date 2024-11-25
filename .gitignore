@@ -1,0 +1,4 @@
+git rm -r --cached .
+git add .
+git commit -m "Відновлення файлів, які потрапляли під .gitignore"
+git push
