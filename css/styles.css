@@ -1,0 +1,43 @@
+nav .logo, 
+.body .header .address ul, 
+.body .header nav ul{
+    font-family: "Roboto";
+    color: #2e2f42;
+    list-style: none;
+}
+
+.header {
+    height: 72px;
+    background: #fff;
+}
+
+nav .logo{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.web{
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+
+.body .header .navigator,
+.body .header .navigator ul,
+.body .header .address,
+.body .header .address ul,
+.body .header{
+    display: flex;
+    /* Встановлюємо flexbox */
+    /*justify-content: space-between;*/
+    /* Розташування елементів по краях */
+    align-items: center;
+    /* Вирівнювання елементів по вертикалі */
+    /*padding: 156px 156px;*/
+    /* Відступи для краси */
+    /*background-color:#4d5ae5 ;*/
+    /* Приклад фонового кольору */
+}
+
