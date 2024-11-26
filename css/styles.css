@@ -1,16 +1,10 @@
-nav .logo, 
-.body .header .address ul, 
-.body .header nav ul{
-    font-family: "Roboto";
-    color: #2e2f42;
-    list-style: none;
-}
 
-nav .logo{
+.logo{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .web{
@@ -33,15 +27,14 @@ nav .logo{
     margin-left: 156px;
 }
 
-.body .header .navigator ul {
+.ul-title {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+
     display: flex; /* Робимо список горизонтальним */
     list-style: none; /* Видаляємо маркери списку */
     padding: 0;
     margin-left: 76px;
-}
-
-.body .header .navigator li {
-    margin-left: 40px; /* Відступи між пунктами */
 }
 
 .body .header .address ul {
@@ -52,12 +45,12 @@ nav .logo{
     padding: 0;
 }
 
-.body .header .address ul li{
+.item-list{
     margin-left: 40px;
     font-style: normal; 
 }
 
-a{
+.title-link{
     text-decoration: none;
     color: #434455;
 }
