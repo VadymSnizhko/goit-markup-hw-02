@@ -6,11 +6,6 @@ nav .logo,
     list-style: none;
 }
 
-.header {
-    height: 72px;
-    background: #fff;
-}
-
 nav .logo{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -24,20 +19,46 @@ nav .logo{
 }
 
 
-.body .header .navigator,
-.body .header .navigator ul,
-.body .header .address,
-.body .header .address ul,
-.body .header{
+.body .header {
     display: flex;
-    /* Встановлюємо flexbox */
-    /*justify-content: space-between;*/
-    /* Розташування елементів по краях */
+    justify-content: space-between; /* Розташування навігації і адреси */
+    align-items: center; /* Вирівнювання по вертикалі */
+    background-color: #fff; /* Фон шапки */
+    height: 72px;
+}
+
+.body .header .navigator {
+    display: flex; /* Навігація в один рядок */
     align-items: center;
-    /* Вирівнювання елементів по вертикалі */
-    /*padding: 156px 156px;*/
-    /* Відступи для краси */
-    /*background-color:#4d5ae5 ;*/
-    /* Приклад фонового кольору */
+    margin-left: 156px;
+}
+
+.body .header .navigator ul {
+    display: flex; /* Робимо список горизонтальним */
+    list-style: none; /* Видаляємо маркери списку */
+    padding: 0;
+    margin-left: 76px;
+}
+
+.body .header .navigator li {
+    margin-left: 40px; /* Відступи між пунктами */
+}
+
+.body .header .address ul {
+    list-style: none; /* Видаляємо маркери списку */
+    display: flex;
+    align-items: center;
+    margin-right: 156px;
+    padding: 0;
+}
+
+.body .header .address ul li{
+    margin-left: 40px;
+    font-style: normal; 
+}
+
+a{
+    text-decoration: none;
+    color: #434455;
 }
 
