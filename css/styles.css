@@ -1,3 +1,21 @@
+/* ERROR
+position
+width
+height
+left
+top
+box-sizing
+display
+align-items
+padding
+flex-direction
+gap
+border-radius
+box-shadow
+order
+flex-grow
+border-bottom
+*/
 
 .logo{
     font-family: "Raleway", sans-serif;
@@ -18,7 +36,7 @@
     justify-content: space-between; /* Розташування навігації і адреси */
     align-items: center; /* Вирівнювання по вертикалі */
     background-color: #fff; /* Фон шапки */
-    height: 72px;
+    height: 72px; /*  CHANGE  ????????     */
 }
 
 .body .header .navigator {
@@ -56,6 +74,6 @@
 }
 
 .body main .hero {
-    height: 600px;
+    height: 600px; /*  CHANGE  ????????     */
     background-color: #2E2F42;
 }
