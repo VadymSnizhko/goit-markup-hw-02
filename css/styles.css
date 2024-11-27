@@ -1,21 +1,20 @@
-/* ERROR
-position
-width
-height
-left
-top
-box-sizing
-display
-align-items
-padding
-flex-direction
-gap
-border-radius
-box-shadow
-order
-flex-grow
-border-bottom
-*/
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+/* #region header */
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+ul,
+ol{
+    list-style-type: none;
+}
 
 .logo{
     font-family: "Raleway", sans-serif;
@@ -24,56 +23,13 @@ border-bottom
     text-transform: uppercase;
     text-decoration: none;
 }
+/* #endregion */
 
 .web{
-    text-transform: uppercase;
     color: #4d5ae5;
 }
 
+/* #region header*/
 
-.body .header {
-    display: flex;
-    justify-content: space-between; /* Розташування навігації і адреси */
-    align-items: center; /* Вирівнювання по вертикалі */
-    background-color: #fff; /* Фон шапки */
-    height: 72px; /*  CHANGE  ????????     */
-}
+/* #endregion */
 
-.body .header .navigator {
-    display: flex; /* Навігація в один рядок */
-    align-items: center;
-    margin-left: 156px;
-}
-
-.ul-title {
-    font-family: "Roboto", sans-serif;
-    color: #2e2f42;
-
-    display: flex; /* Робимо список горизонтальним */
-    list-style: none; /* Видаляємо маркери списку */
-    padding: 0;
-    margin-left: 76px;
-}
-
-.body .header .address ul {
-    list-style: none; /* Видаляємо маркери списку */
-    display: flex;
-    align-items: center;
-    margin-right: 156px;
-    padding: 0;
-}
-
-.item-list{
-    margin-left: 40px;
-    font-style: normal; 
-}
-
-.title-link{
-    text-decoration: none;
-    color: #434455;
-}
-
-.body main .hero {
-    height: 600px; /*  CHANGE  ????????     */
-    background-color: #2E2F42;
-}
