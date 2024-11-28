@@ -124,6 +124,7 @@ ol{
 
 .team{
     background-color: #f4f4fd;
+    text-transform: capitalize
 }
 
 .team-list{
