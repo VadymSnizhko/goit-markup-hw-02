@@ -1,7 +1,8 @@
 
 body{
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 /* #region header */
 
@@ -14,7 +15,6 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 a{
@@ -30,7 +30,7 @@ ol{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -42,10 +42,17 @@ ol{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
     font-style: normal;
 }
- 
+
+.header-ul .item-link{
+    color: #2e2f42;
+}
+
+.address-ul .item-link{
+    color: #434455;
+}
+
 .header-nav 
 .logo-studio{
     color: #2E2F42;
@@ -76,7 +83,7 @@ ol{
 .hero-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
@@ -102,13 +109,13 @@ ol{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .vision-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .team{
@@ -118,9 +125,10 @@ ol{
 .team-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2E2F42;
 }
 
 .team-name{
@@ -129,6 +137,7 @@ ol{
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2E2F42;
 }
 
 .team-special{
@@ -136,15 +145,19 @@ ol{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
+}
+
+.portfolio{
+    text-transform: capitalize
 }
 
 .portfolio-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2E2F42;
 }
 
 .portfolio-name{
@@ -152,13 +165,13 @@ ol{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .portfolio-type{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 /* #endregion */
 
