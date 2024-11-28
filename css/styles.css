@@ -112,6 +112,10 @@ ol{
     color: #2E2F42;
 }
 
+.vision-h2{
+    text-transform: capitalize;
+}
+
 .vision-text{
     font-size: 16px;
     line-height: 1.5;
@@ -120,6 +124,10 @@ ol{
 
 .team{
     background-color: #f4f4fd;
+}
+
+.team-list{
+    background-color: #FFFFFF
 }
 
 .team-title{
@@ -148,7 +156,7 @@ ol{
 }
 
 .portfolio{
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .portfolio-title{
