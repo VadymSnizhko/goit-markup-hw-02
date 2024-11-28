@@ -1,7 +1,7 @@
 
 body{
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    color: #2E2F42;
 }
 /* #region header */
 
@@ -14,11 +14,11 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 a{
     text-decoration: none;
-    color: #2E2F42;
 }
 
 ul,
@@ -102,7 +102,6 @@ ol{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
 .vision-text{
@@ -110,6 +109,7 @@ ol{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .team{
@@ -122,7 +122,6 @@ ol{
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
 }
 
 .team-name{
@@ -131,7 +130,6 @@ ol{
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
 }
 
 .team-special{
@@ -140,6 +138,7 @@ ol{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #434455;
 }
 
 .portfolio-title{
@@ -148,7 +147,6 @@ ol{
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;
 }
 
 .portfolio-name{
@@ -156,7 +154,6 @@ ol{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
 .portfolio-type{
@@ -164,6 +161,7 @@ ol{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 /* #endregion */
 
